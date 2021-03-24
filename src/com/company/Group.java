@@ -6,8 +6,8 @@ import java.util.ArrayList;
 import java.util.Calendar;
 
 public class Group {
-    
- ListGroup listGroup = new ListGroup();
+
+    ListGroup listGroup = new ListGroup();
 
     private Student student;
     private String nameCourse;
@@ -33,7 +33,7 @@ public class Group {
     public String getNameCourse() {
         return nameCourse;
     }
-    
+
     public int getSumLessons() {
         return sumLessons;
     }
@@ -77,10 +77,8 @@ public class Group {
         listGroup.addGroup(getFullNameCroup());
         System.out.println(listGroup.toString());
     }
-    
-        
 
-    public void addTeacher(Student teacher){
+    public void addTeacher(Student teacher) {
         personList.add(teacher);
     }
 

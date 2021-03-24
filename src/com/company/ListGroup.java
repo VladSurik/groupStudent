@@ -19,12 +19,13 @@ public class ListGroup {
     public ListGroup(ArrayList<String> listGroup) {
         this.listGroup = listGroup;
     }
-    public void addGroup( String nameGroup){
+
+    public void addGroup(String nameGroup) {
         listGroup.add(nameGroup);
     }
 
     @Override
     public String toString() {
-        return "Your list group:" + listGroup ;
+        return "Your list group:" + listGroup;
     }
 }

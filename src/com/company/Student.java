@@ -1,13 +1,13 @@
 package com.company;
 
-public class Person {
+public class Student {
     private String surname;
     private String name;
     private String dateBirthday;
     private String numberPhone;
     private TypePerson typePerson;
 
-    public Person(String surname, String name, String dateBirthday, String number, TypePerson typePerson) {
+    public Student(String surname, String name, String dateBirthday, String number, TypePerson typePerson) {
         this.surname = surname;
         this.name = name;
         this.dateBirthday = dateBirthday;

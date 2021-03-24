@@ -74,7 +74,8 @@ public class Group {
 
     public void addStudent(Student student) {
         personList.add(student);
-        listGroup.addGroup(Group);
+        listGroup.addGroup(getFullNameCroup());
+        System.out.println(listGroup.toString());
     }
     
         

@@ -1,2 +1,5 @@
-package com.company;public interface TypePerson {
+package com.company;
+
+public enum TypePerson {
+    STUDENT, TEACHER
 }

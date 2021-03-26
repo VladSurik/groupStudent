@@ -78,7 +78,7 @@ public class Group {
         System.out.println(listGroup.toString());
     }
 
-    public void addTeacher(Student teacher) {
+    public void addTeacher(Teacher teacher) {
         personList.add(teacher);
     }
 
